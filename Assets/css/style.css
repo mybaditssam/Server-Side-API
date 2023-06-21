@@ -1,0 +1,63 @@
+body{
+    background-image: url("https://images.theconversation.com/files/393210/original/file-20210401-13-z6rl6z.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop");
+    background-position: center;
+    background-size: cover;
+}
+
+.btn{
+    background-color: lightblue;
+}
+
+.input{
+    float: right ;
+}
+
+.nav{
+    padding: 10px;
+    background-color: lightblue;
+    opacity: .8;
+}
+
+h3 {
+    color: black;
+    display: flex;
+    text-align: center;
+}
+
+#weatherNow{
+    border-width: 2px;
+    border-color:rgb(36, 36, 250); 
+}
+
+#forecast{
+    position:absolute;
+    display: contents-center;
+    float:right;
+    border-width: 4em;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 15%;
+    }
+
+   .card{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 1em;
+    background-color:  rgb(211, 225, 245);
+    border-width: 2px;
+    border-color:rgb(36, 36, 250);
+    box-shadow: 5em;
+    padding: 10px;
+    margin: 5px;
+}
+
+@media screen and (max-width: 900px) {
+    weatherCard
+     {
+      flex-direction: column;
+    }
+    weatherNow {
+        flex-direction: row;
+    }
+  }
