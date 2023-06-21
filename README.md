@@ -9,9 +9,9 @@ The application also displays a five-day weather forecast, including the date, w
 ## Project Structure
 The project consists of:
 
-- index.html
-- style.css
-- main.js
+- HTML
+- CSS
+- Javascript
 
 ## Getting Started
 To run the project follow these steps:
